@@ -1,283 +1,127 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en">
+<!doctype html>
 
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="title" content="Razi Syed" />
+    <meta name="author" content="Razi Syed" />
+    <meta name="description" content="Business Technology Management student, Software Developer, and Photographer based in Toronto." />
+    <meta name="Copyright" content="Razi Syed 2017" />
+    <meta name="keywords" content="Razi Syed, personal site, developer, Ryerson, developer, photography, pictures, Toronto, Mississauga, Ted Rogers" />
+    <meta name="theme-color" content="#4B4F56" />
+    <meta property='og:image' content='http://typicalmitul.com/img/portfolio-7.jpg' />
+
+    <title>Razi Syed</title>
+
+    <!-- stylesheets -->
+    <link href="css/foundation.min.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="img/favicon.png">
+
+    <!-- Javascripts -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/vendor/foundation.min.js"></script>
+    <script src="https://cdn.smooch.io/smooch.min.js"></script>
+
+    <script>
+        Smooch.init({ 
+            appToken: '87hnxvcqvf4aj6as4psszdujq',
+            customText: {
+                headerText: 'How can I help?',
+                inputPlaceholder: 'Type a message...',
+                introductionText: 'I\'m here to talk, so ask me anything!',
+                sendButtonText: 'Send',
+            }
+        });
+    </script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-99340208-1', 'auto');
+      ga('send', 'pageview');
+
+  </script>
+
+
 </head>
-
 <body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-    <!-- End #mobile-menu-toggle -->
-    <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
-        </div>
-        <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
-                <a href="#education">Education</a>
-            </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
-    </header>
-    <!-- End header -->
-
-    <div id="lead">
-        <div id="lead-content">
-            <h1>Matthew Fish</h1>
-            <h2>Business and Computer Science DOuble Degree</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
-        </div>
-        <!-- End #lead-content -->
-
-        <div id="lead-overlay"></div>
-
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
-        <!-- End #lead-down -->
-    </div>
-    <!-- End #lead -->
-
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End #about -->
-
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="September 2015 – September 2016">
-                <h3>Smile.io</h3>
-                <h4>Marketing & Analytics</h4>
-                <p>
-                    Worked on the prouct marketing team at Smile.io, a world leading loyalty program provider. During my time at Smile, some significant projects were:
-                    <li>Analyzed pricing structure for company, and determined ways to increase software upgrade revenue</li>
-                    <li>Created calculator web app backend to estimate a businesses key performance indicators before and after implementing a loyalty strategy</li>
-                    <li>Wrote 20+ blog posts, curated companies Facebook, Twitter and Linkedin presences</li>
-
-                </p>
-            </div>
-
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
-
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- End #experience -->
-
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-            </p>
-        </div>
-        <!-- End .education-block -->
-
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>
-        </div>
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
-
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
+    <div id="main-outer">
+        <div id="main-middle">
+            <div id="main-container">
+                <div class="row">
+                    <div class="large-4 columns">
+                        <div class="row">
+                            <div class="large-6 columns">
+                                <div id="my-photo"></div>
+                            </div>
+                            <div class="large-6 columns">
+                                <h1>RAZI SYED</h1>
+                            </div>
+                        </div>
+                        <div id="social-links-wrapper">
+                            <ul class="social-links">
+                                <li><a href="https://github.com/razisyed97"><i class="fa fa-github-square fa-fw"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/razisyed1/"><i class="fa fa-linkedin-square fa-fw"></i></a></li>
+                                <li><a href="https://drive.google.com/file/d/0B0F8TlUdCooLaXhaN0pieFZfbk0/view?usp=sharing"><i class="fa fa-file-pdf-o fa-fw"></i></a></li>
+                                <li><a href="https://instagram.com/http.razi"><i class="fa fa-instagram fa-fw"></i></a></li>
+                                <li><a href="https://httprazi.com"><i class="fa fa-camera fa-fw"></i></a></li>
+                                <li><a href="https://open.spotify.com/user/razisyed"><i class="fa fa-spotify fa-fw"></i></a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
+                    <div class="large-8 columns">
+                        <div id="terminal-titlebar">
+                            <div class="circle red"></div>
+                            <div class="circle yellow"></div>
+                            <div class="circle green"></div>
+                        </div>
+                        <div id="terminal">
+                            <span class="input">>>></span> location<br />
+                            <span class="string">Toronto, ON</span><br /><br />
 
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
+                            <span class="input">>>></span> education<br />
+                            {<br />
+                            &nbsp;&nbsp; "<span class="string">school</span>": "<span class="string">Ryerson University</span>",<br />
+                            &nbsp;&nbsp; "<span class="string">major</span>": "<span class="string">business technology management</span>",<br />
+                            &nbsp;&nbsp; "<span class="string">minor</span>": "<span class="string">finance</span>",<br />
+                            &nbsp;&nbsp; "<span class="string">graduating</span>": "<span class="string">April 2020</span>"<br />
+                        }<br /><br />
+
+                        <span class="input">>>></span> employment<br />
+                        {<br />
+                        &nbsp;&nbsp; "<span class="string">current1</span>": "<span class="string">software developer intern @ Knockri</span>",<br />
+                        &nbsp;&nbsp; "<span class="string">current2</span>": "<span class="string">customer service representative @ Scotiabank</span>",<br />
+                        &nbsp;&nbsp; "<span class="string">current3</span>": "<span class="string">co-founder and president @ Warm Hearts</span>",<br />
+                        &nbsp;&nbsp; "<span class="string">current4</span>": "<span class="string">president @ RU Stargazers</span>",<br />
+                        &nbsp;&nbsp; "<span class="string">current5</span>": "<span class="string">student senator @ Ryerson Senate - Ryerson University</span>",<br />
+                        &nbsp;&nbsp; "<span class="string">current6</span>": "<span class="string">senate representative @ Ryerson Students' Union - Board of Directors</span>",<br />
+                        &nbsp;&nbsp; "<span class="string">sep 2016 - apr 2017</span>": "<span class="string">first year representative @ Ryerson Students' Union - Board of Directors</span>",<br />
+                        &nbsp;&nbsp; "<span class="string">sep 2016 - apr 2017</span>": "<span class="string">photographer @ Ted Rogers Students' Society - Marketing Committee</span>"<br />
+                    }<br /><br />
+
+                    <span class="input">>>></span> hobbies &amp;&amp; interests<br />
+                    [ "<span class="string">photography</span>", "<span class="string">web development</span>", "<span class="string">coffee</span>", "<span class="string">design</span>", "<span class="string">music</span>"]<br /><br />
+
+                    <span class="input">>>></span> programming languages<br />
+                    [ "<span class="string">Javascript</span>", "<span class="string">Java</span>", "<span class="string">Python</span>"]<br /><br />
+
+                    <span class="input">>>></span> frameworks<br />
+                    [ "<span class="string">ReactJS</span>", "<span class="string">AngularJS</span>", "<span class="string">Node.js</span>", "<span class="string">Bootstrap</span>", "<span class="string">Flask</span>"]<br /><br />
+
+                    <span class="input">>>></span> contact<br />
+                    [ "<span class="string"><a href="mailto:raziulhaque.syed@ryerson.ca">raziulhaque.syed@ryerson.ca</a></span>", "<span class="string">647 996 5524</span>" ]
                 </div>
-                <!-- End .project -->
+
             </div>
         </div>
     </div>
-    <!-- End #projects -->
+</div>
+</div>
 
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-        </ul>
-    </div>
-    <!-- End #skills -->
-
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; 2017 YOUR NAME
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- End footer -->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
 </body>
-
 </html>
